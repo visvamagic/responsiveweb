@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Responsive Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        
+        header {
+            background-color: #5c1969;
+            color: #ffffff;
+            padding: 20px;
+            text-align: center;
+            display: flex;
+            justify-content: space-between;
+        }
+        .center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+            }
+
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: flex-end;
+        }
+        
+        nav li {
+            margin-left: 10px;
+        }
+        
+        main {
+            padding: 20px;
+            text-align: center;
+        }
+        
+        footer {
+            background-color: #690b65;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        footer a {
+            color: #e7cae2;
+            margin: 0 10px;
+            font-size: 20px;
+        }
+        
+        @media only screen and (max-width: 600px) {
+            header, footer {
+                padding: 10px;
+            }
+            
+            main {
+                padding: 10px;
+            }
+            
+            nav ul {
+                justify-content: center;
+            }
+            
+            nav li {
+                margin: 0 5px;
+            }
+
+            .menu {
+            text-align: right;
+           
+            }
+
+            .menu a {
+            text-decoration: none;
+            color: #e9e3e3;
+            margin-right: 10px;
+            }
+
+            .menu a:hover {
+            text-decoration: underline;
+          
+           
+            }
+
+
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Task</h1>
+        <nav class="menu">
+            <a href="about.doc", style="color: #e7cae2;">About</a>
+            <a href="", style="color: #e7cae2;">contact</a>
+            <a href="", style="color: #e7cae2;">service</a>
+        </nav>
+    </header>
+    
+    <main>
+        <h2>Welcome to my website!</h2>
+        <p>This is a simple responsive website.</p>
+    </main>
+    <img src="model.jpg",  class="center", style="height: 100%; width:300px ;">
+    <footer>
+        <p>&copy; 2023 Simple Responsive Website. All rights reserved.</p>
+        <div>
+            <a href="https://www.linkedin.com/in/visva-veeramani-2407011b9" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.facebook.com/visva.v.777" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://github.com" target="_blank"><i class="fab fa-github"></i></a>
+        </div>
+    </footer>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
+</body>
+</html>
